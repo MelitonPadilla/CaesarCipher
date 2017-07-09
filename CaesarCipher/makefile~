@@ -1,0 +1,6 @@
+caesarCipher: caesarCipher.o 
+	g++ -Wall caesarCipher.cpp
+	
+
+clean:
+	rm caesarCipher.o
